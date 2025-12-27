@@ -20,6 +20,11 @@ Although the example domain uses livestock pens, the underlying model generalise
 - A* Search (Informed Search)
 - Object-Oriented Design
 
+## Dependencies
+This project relies on the `aips` framework, which provides base classes and utilities for informed search problems.
+
+The framework is included locally in the `lib/` directory and is required to run the project.
+
 ## How to Run
 ```bash
 python src/shepherd_problem.py
